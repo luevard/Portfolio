@@ -1,0 +1,153 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centrer le contenu verticalement */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  overflow: auto;
+}
+
+.nav-image {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Make sure it takes the full width of the nav */
+}
+
+nav ul li {
+  margin: 10px 0;
+  width: 100%; /* Ensure each list item takes the full width */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  display: block; /* Ensure anchor tags are displayed as blocks */
+  width: 100%; /* Ensure anchor tags take the full width */
+}
+
+main {
+  margin-left: 220px;  /* Adjusted to give more space */
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#projets .projet {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+#projets .projet:last-child {
+  border-bottom: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-top: 15px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.cv-button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #007acc;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px auto;
+}
