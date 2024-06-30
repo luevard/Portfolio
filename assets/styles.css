@@ -62,12 +62,12 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  display: block; /* Ensure anchor tags are displayed as blocks */
-  width: 100%; /* Ensure anchor tags take the full width */
+  display: block;
+  width: 100%;
 }
 
 main {
-  margin-left: 220px;  /* Adjusted to give more space */
+  margin-left: 220px;
   padding: 20px;
 }
 
